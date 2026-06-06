@@ -1,6 +1,9 @@
 Añade alguna funcionalidad adicional de tu preferencia al juego que realizamos, queda de ti la definición de esa funcionalidad, documenta en tu entregable de que va esa funcionalidad.
 
 Para esta entrega se implemento un boton de Pausa y esta misma funcionalidad al presionar el boton de teclado (ESC), este despliga un pequeño menu el cual solo muestra un boton para Continuar jugando
+Explicación breve de modificación
+Para agregar esta función se modifico el index.ejs, en este se agregó el botón de pausa y el menú de pausa con el botón Continuar, en style.css se les dio el estilo neón del juego para que se vean como parte de él. 
+En game.js se agregó la lógica para que el juego se detenga cuando está pausado dejando de mover autos y puntaje hasta que se reanude este, conectando el botón de pausa, el botón Continuar y la tecla ESC para que los tres hagan lo mismo.
 
 Añade a tu entregable un video donde se vea tu resultado final, de preferencia subelo a youtube o drive más que a tu repositorio.
 
